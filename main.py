@@ -1,11 +1,11 @@
 import matplotlib.pyplot as plt
 import numpy as np
 from shapely.geometry import LineString, Point, Polygon
-from Utils.animation import HybridPlannerAnimation
 
 from Planner.apf_local_planner import APFLocalPlanner
 from Planner.hybrid_planner import HybridPlanner
 from Planner.rrt_planner import RRTPlanner
+from Utils.animation import HybridPlannerAnimation
 
 
 def create_obstacle(center, width, height):

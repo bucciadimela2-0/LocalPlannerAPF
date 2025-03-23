@@ -66,3 +66,5 @@ class HybridPlannerAnimation:
                                        blit=True, repeat=True)
         anim.save(filename, writer='pillow')
         plt.close()
+
+    

@@ -115,4 +115,5 @@ class APFLocalPlanner:
         plt.grid(True)
         plt.legend()
         plt.title('Artificial Potential Field')
+        plt.savefig(fname = 'Figure/potential_field.png')
         plt.show()

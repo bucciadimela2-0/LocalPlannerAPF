@@ -65,4 +65,8 @@ class HybridPlanner:
         plt.grid(True)
         plt.legend()
         plt.title('Hybrid Path Planning (RRT + APF)')
+        plt.savefig(fname = 'Figure/hybrid_path.png')
         plt.show()
+        
+
+    

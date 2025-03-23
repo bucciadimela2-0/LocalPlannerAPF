@@ -1,0 +1,12 @@
+# Directory generiche
+
+
+# File generati da Python
+__pycache__/
+*.pyc
+*.pyo
+
+# File specifici del sistema operativo
+.DS_Store
+
+# File specifici
