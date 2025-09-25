@@ -29,3 +29,60 @@ This will:
   - The potential field heatmap
 
 </details>
+
+
+Implementation Details
+
+### Global Planning (RRT)
+- Rapidly explores the configuration space
+- Generates an initial feasible path
+- Handles complex environments efficiently
+
+### Local Planning (APF)
+- Refines the global path for smoothness
+- Uses attractive forces towards the goal
+- Implements repulsive forces from obstacles
+- Provides dynamic obstacle avoidance
+
+### Visualization
+- Real-time path planning visualization
+- Animated demonstration of the planning process
+- Clear representation of obstacles and paths
+
+## Configurable Parameters
+
+| Parameter | Meaning |
+|----------|---------|
+| `k_att` | Attractive force gain |
+| `k_rep` | Repulsive force gain |
+| `rho_0` | Obstacle influence range |
+| `local_step_size` | Step size for local planner |
+| `max_iterations` | Maximum iterations for RRT |
+
+## Visualization & Outputs
+The planner generates multiple visual artifacts for analysis.
+
+# What do I get? 
+
+- **Global path:** Blue dashed line  
+- **Refined path:** Green solid line  
+- **GIF animation:** Step-by-step planning process  
+- **Potential field heatmap:** Shows force vectors and gradients  
+
+<div align="center">
+<img src="figure/hybrid_planning.gif" width="250"/>
+<img src="figure/hybrid_path.png"  width="250"/>
+<img src="figure/potential_field.png"  width="250"/>
+<p><em>First hybrid planning example </em></p>
+</div>
+
+<details>
+<summary>Other outputs </summary>
+
+<div align="center">
+<img src="figure/hybrid_planning_2.gif" width="250"/>
+<img src="figure/hybrid_planning_3.gif" width="250"/>
+<img src="figure/hybrid_planning_4.gif" width="250"/>
+
+</div>
+</details>
