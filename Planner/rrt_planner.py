@@ -1,6 +1,8 @@
-import numpy as np
 import random
-from shapely.geometry import Point, Polygon, LineString
+
+import numpy as np
+from shapely.geometry import LineString, Point, Polygon
+
 
 class Node:
     def __init__(self, x, y):
@@ -44,7 +46,7 @@ class RRTPlanner:
                 return False
         return True
 
-    def choose_new_point(self, random_point, nearest_node, obstacles, step_size=5.0):
+    def choose_new_point(self, random_point, nearest_node, obstacles, step_size=10.0):
         # Calculate direction vector
         dx = random_point.x - nearest_node.x
         dy = random_point.y - nearest_node.y
@@ -69,6 +71,9 @@ class RRTPlanner:
         return None
 
     def plan_path(self, start_point, goal_point, obstacles, animation=None):
+
+        random.seed(0)
+        np.random.seed(0)
         tree = [Node(start_point.x, start_point.y)]
         goal_node = Node(goal_point.x, goal_point.y)
         

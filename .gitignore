@@ -10,3 +10,6 @@ __pycache__/
 .DS_Store
 
 # File specifici
+.gitignore
+
+README_HYBRID_PATH_PLANNING.md

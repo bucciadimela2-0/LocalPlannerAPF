@@ -1,5 +1,6 @@
 import matplotlib.animation as animation
 import matplotlib.pyplot as plt
+import numpy as np
 from shapely.geometry import Point
 
 
@@ -52,6 +53,8 @@ class HybridPlannerAnimation:
         
         self.frames.append(frame)
     
+   
+    
     def _animate(self, i):
         # Remove previous frame
         if i > 0:
@@ -61,7 +64,7 @@ class HybridPlannerAnimation:
         # Add current frame
         return self.frames[i]
     
-    def save_animation(self, filename='Figure/hybrid_planning.gif', fps=10):
+    def save_animation(self, filename='Figure/hybrid_planning.gif', fps=5):
         anim = animation.ArtistAnimation(self.fig, self.frames, interval=1000/fps,
                                        blit=True, repeat=True)
         anim.save(filename, writer='pillow')
