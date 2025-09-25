@@ -1,5 +1,4 @@
-# Directory generiche
-
+README_HYBRID_PATH_PLANNING.md
 
 # File generati da Python
 __pycache__/
@@ -12,4 +11,3 @@ __pycache__/
 # File specifici
 .gitignore
 
-README_HYBRID_PATH_PLANNING.md

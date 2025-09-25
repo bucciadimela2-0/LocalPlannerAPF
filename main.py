@@ -37,12 +37,11 @@ def main():
     os.makedirs("figure", exist_ok=True)
 
     # === Parametri planner CORRETTI PER BILANCIAMENTO FORZE ===
-    k_att = 10.0         # Aumentato per bilanciare le repulsive
-    k_rep = 30.0         # MOLTO ridotto - era troppo forte!
-    rho_0 = 8.0          # Ridotto per limitare l'influenza degli ostacoli
-    local_step_size = 0.01 # Ridotto per movimenti più precisi
-    delta_0 = 1.5        # Distanza di sicurezza ridotta
-
+    k_att = 10.0         
+    k_rep = 30.0         
+    rho_0 = 8.0          
+    local_step_size = 0.01 
+    delta_0 = 1.5        
     hybrid_planner = HybridPlanner(k_att, k_rep, rho_0, local_step_size, delta_0)
 
     # === Ambiente ===

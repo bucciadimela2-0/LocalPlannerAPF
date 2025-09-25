@@ -161,7 +161,7 @@ class APFLocalPlanner:
     
     def visualize_potential_field(self, start_pos, goal_pos, obstacles, x_range=(0, 100), y_range=(0, 100), resolution=50):
         """Visualize potential field with reduced resolution for speed."""
-        # RIDOTTA RISOLUZIONE da 100x100 a 50x50 = 4x più veloce
+        
         x = np.linspace(x_range[0], x_range[1], resolution)
         y = np.linspace(y_range[0], y_range[1], resolution)
         X, Y = np.meshgrid(x, y)
@@ -192,7 +192,7 @@ class APFLocalPlanner:
                     V[i,j] = direction[1]
         
         plt.figure(figsize=(10, 8))
-        plt.streamplot(X, Y, U, V, density=1.0)  # Anche density ridotta
+        plt.streamplot(X, Y, U, V, density=1.0) 
         
         # Plot obstacles
         for obstacle in obstacles:
