@@ -35,21 +35,17 @@ This will:
 Implementation Details</summary>
 
 
-**Global Planning (RRT)**
-- Rapidly explores the configuration space
-- Generates an initial feasible path
-- Handles complex environments efficiently
+  **Global Planning (RRT)**
+  - Rapidly explores the configuration space
+  - Generates an initial feasible path
+  - Handles complex environments efficiently
+  
+  **Local Planning (APF)**
+  - Refines the global path for smoothness
+  - Uses attractive forces towards the goal
+  - Implements repulsive forces from obstacles
+  - Provides dynamic obstacle avoidance
 
-**Local Planning (APF)**
-- Refines the global path for smoothness
-- Uses attractive forces towards the goal
-- Implements repulsive forces from obstacles
-- Provides dynamic obstacle avoidance
-
-**Visualization**
-- Real-time path planning visualization
-- Animated demonstration of the planning process
-- Clear representation of obstacles and paths
 
 ### Configurable Parameters
 
