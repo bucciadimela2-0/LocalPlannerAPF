@@ -62,6 +62,7 @@ Implementation Details</summary>
 | `max_iterations` | Maximum iterations for RRT |
 
 </details>
+
 ## Visualization & Outputs
 The planner generates multiple visual artifacts for analysis.
 
@@ -74,7 +75,7 @@ The planner generates multiple visual artifacts for analysis.
 
 <div align="center">
 
-<img src="Figure/Hybrid_Path.png"  width="400"/>
+<img src="Figure/Hybrid_Path.png"  width="420"/>
 <img src="Figure/potential_field.png"  width="350"/>
 <p><em>First hybrid planning example </em></p>
 </div>
