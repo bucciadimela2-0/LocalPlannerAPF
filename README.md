@@ -32,7 +32,7 @@ This will:
 
 <details>
 <summary>
-mplementation Details</summary>
+Implementation Details</summary>
 
 
 ### Global Planning (RRT)
@@ -62,7 +62,7 @@ mplementation Details</summary>
 | `max_iterations` | Maximum iterations for RRT |
 
 </details>
-##Visualization & Outputs
+## Visualization & Outputs
 The planner generates multiple visual artifacts for analysis.
 
 **What do I get?**
