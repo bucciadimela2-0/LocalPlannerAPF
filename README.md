@@ -1,4 +1,4 @@
-# 🧭 Hybrid Path Planning (RRT + APF)
+# Hybrid Path Planning (RRT + APF)
 
 Repository for a hybrid path planning project that combines **Rapidly-exploring Random Trees (RRT)** for global exploration with **Artificial Potential Fields (APF)** for local path refinement.  
 This approach leverages the strengths of both planners to generate efficient and smooth trajectories for autonomous navigation.
@@ -30,8 +30,10 @@ This will:
 
 </details>
 
+<details>
+<summary>
+###Implementation Details</summary>
 
-Implementation Details
 
 ### Global Planning (RRT)
 - Rapidly explores the configuration space
@@ -59,10 +61,11 @@ Implementation Details
 | `local_step_size` | Step size for local planner |
 | `max_iterations` | Maximum iterations for RRT |
 
+</details>
 ## Visualization & Outputs
 The planner generates multiple visual artifacts for analysis.
 
-# What do I get? 
+### What do I get? 
 
 - **Global path:** Blue dashed line  
 - **Refined path:** Green solid line  
@@ -70,9 +73,9 @@ The planner generates multiple visual artifacts for analysis.
 - **Potential field heatmap:** Shows force vectors and gradients  
 
 <div align="center">
-<img src="Figure/hybrid_planning.gif" width="250"/>
-<img src="Figure/Hybrid_Path.png"  width="250"/>
-<img src="Figure/potential_field.png"  width="250"/>
+<img src="Figure/hybrid_planning.gif" width="350"/>
+<img src="Figure/Hybrid_Path.png"  width="350"/>
+<img src="Figure/potential_field.png"  width="350"/>
 <p><em>First hybrid planning example </em></p>
 </div>
 
