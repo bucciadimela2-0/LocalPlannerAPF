@@ -71,7 +71,7 @@ The planner generates multiple visual artifacts for analysis.
 
 <div align="center">
 <img src="Figure/hybrid_planning.gif" width="250"/>
-<img src="Figure/hybrid_path.png"  width="250"/>
+<img src="Figure/Hybrid_Path.png"  width="250"/>
 <img src="Figure/potential_field.png"  width="250"/>
 <p><em>First hybrid planning example </em></p>
 </div>
