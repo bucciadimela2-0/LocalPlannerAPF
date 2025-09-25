@@ -32,7 +32,7 @@ This will:
 
 <details>
 <summary>
-###Implementation Details</summary>
+mplementation Details</summary>
 
 
 ### Global Planning (RRT)
@@ -51,7 +51,7 @@ This will:
 - Animated demonstration of the planning process
 - Clear representation of obstacles and paths
 
-## Configurable Parameters
+**Configurable Parameters**
 
 | Parameter | Meaning |
 |----------|---------|
@@ -62,10 +62,10 @@ This will:
 | `max_iterations` | Maximum iterations for RRT |
 
 </details>
-## Visualization & Outputs
+##Visualization & Outputs
 The planner generates multiple visual artifacts for analysis.
 
-### What do I get? 
+**What do I get?**
 
 - **Global path:** Blue dashed line  
 - **Refined path:** Green solid line  
@@ -80,7 +80,7 @@ The planner generates multiple visual artifacts for analysis.
 </div>
 
 <details>
-<summary> some gif ✨</summary>
+<summary> Some gif ✨</summary>
 
 <div align="center">
 <img src="Figure/hybrid_planning.gif" width="450"/>
