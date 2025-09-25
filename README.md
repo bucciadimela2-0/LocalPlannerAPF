@@ -70,9 +70,9 @@ The planner generates multiple visual artifacts for analysis.
 - **Potential field heatmap:** Shows force vectors and gradients  
 
 <div align="center">
-<img src="figure/hybrid_planning.gif" width="250"/>
-<img src="figure/hybrid_path.png"  width="250"/>
-<img src="figure/potential_field.png"  width="250"/>
+<img src="Figure/hybrid_planning.gif" width="250"/>
+<img src="Figure/hybrid_path.png"  width="250"/>
+<img src="Figure/potential_field.png"  width="250"/>
 <p><em>First hybrid planning example </em></p>
 </div>
 
@@ -80,9 +80,9 @@ The planner generates multiple visual artifacts for analysis.
 <summary>Other outputs </summary>
 
 <div align="center">
-<img src="figure/hybrid_planning_2.gif" width="250"/>
-<img src="figure/hybrid_planning_3.gif" width="250"/>
-<img src="figure/hybrid_planning_4.gif" width="250"/>
+<img src="Figure/hybrid_planning_2.gif" width="250"/>
+<img src="Figure/hybrid_planning_3.gif" width="250"/>
+<img src="Figure/hybrid_planning_4.gif" width="250"/>
 
 </div>
 </details>
