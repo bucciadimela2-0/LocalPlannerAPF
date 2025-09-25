@@ -35,23 +35,23 @@ This will:
 Implementation Details</summary>
 
 
-### Global Planning (RRT)
+**Global Planning (RRT)**
 - Rapidly explores the configuration space
 - Generates an initial feasible path
 - Handles complex environments efficiently
 
-### Local Planning (APF)
+**Local Planning (APF)**
 - Refines the global path for smoothness
 - Uses attractive forces towards the goal
 - Implements repulsive forces from obstacles
 - Provides dynamic obstacle avoidance
 
-### Visualization
+**Visualization**
 - Real-time path planning visualization
 - Animated demonstration of the planning process
 - Clear representation of obstacles and paths
 
-**Configurable Parameters**
+### Configurable Parameters
 
 | Parameter | Meaning |
 |----------|---------|
@@ -63,7 +63,7 @@ Implementation Details</summary>
 
 </details>
 
-## Visualization & Outputs
+### Visualization & Outputs
 The planner generates multiple visual artifacts for analysis.
 
 **What do I get?**
