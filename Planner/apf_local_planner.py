@@ -104,7 +104,7 @@ class APFLocalPlanner:
         
         # Controllo di convergenza migliorato
         prev_positions = []
-        stall_threshold = step_size * 0.3  # Più dinamico basato su step_size
+        stall_threshold = step_size * 0.3  #  basato su step_size
         min_steps_before_stall_check = 15  # Aspetta più step prima di controllare stallo
         
         while not goal_reached and step_count < max_steps:
@@ -139,7 +139,7 @@ class APFLocalPlanner:
                 # Controllo stallo - solo dopo un numero minimo di step
                 if step_count > min_steps_before_stall_check:
                     prev_positions.append((new_x, new_y))
-                    if len(prev_positions) > 10:  # Finestra più ampia
+                    if len(prev_positions) > 10:
                         prev_positions.pop(0)
                         if len(prev_positions) == 10:
                             # Controlla se negli ultimi 10 step si è mosso poco
